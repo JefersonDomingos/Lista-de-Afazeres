@@ -1,0 +1,189 @@
+/*Geral*/
+*{
+    padding:0;
+    margin:0;
+    font-family: Helvetica;
+    color:#0000f0;
+    box-sizing:border-box;
+}
+
+body{
+     background-color: #0054b4;
+    
+}
+
+button{
+    background-color: #0020ff;
+    color:#0000f0;
+    border:1px solid #0000f0;
+    padding:.3rem .6rem; 
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    transition:0.2s;
+    border-radius: 6px;
+
+}
+
+button:hover{
+    background-color: #0035ff;
+    font-weight: bold;
+    transform: scale(1.1);
+
+}
+
+button:hover > i {
+    color:#000000;
+    font-weight: bold;
+    
+
+}
+
+button i{
+    pointer-events: none; /*O icone que está por cima do botão é ignorado*/
+    color:#000000;
+}
+
+#botao-adicionar{
+    font-weight: bold;
+}
+
+#cancel-edit-btn{
+    color:#000000;
+    font-weight: 400;
+}
+
+
+input, select{
+    padding:0.25rem 0.5rem;
+    border-radius: 6px;
+    border: .3px solid black;
+
+}
+
+.hide{ 
+    display:none;
+}
+
+
+/*Lista de afazeres header*/
+
+.container-principal{
+    max-width: 450px;
+    margin:3rem auto;
+    background-color: #e0dbde;
+    padding: 1.5rem;
+    border-radius:15px;
+}
+
+.container-principal header{
+    text-align: center;
+    padding: 0 1rem 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+/*Lista de afazeres form*/
+#afazeres-input::placeholder{
+    color:#0000f0;
+    
+}
+
+
+#afazeres-form, #edit-form{
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+#afazeres-form p, #edit-form p{
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.form-control{
+    display:flex;
+}
+
+.form-control input{
+    margin-right: 0.3rem;
+}
+
+#cancel-edit-btn{
+    margin-top: 1rem;
+}
+
+/*Lista toolbar: filtro e pesquisa*/
+
+#toolbar{
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+    display:flex;
+}
+
+#toolbar h4{
+    margin-bottom: .5rem;
+}
+
+#search{
+    border-right: 1px solid #ddd;
+    padding-right: 1rem;
+    margin-right: 1rem;
+    width: 65%;
+    display:flex;
+    flex-direction: column;
+}
+
+#search form{
+    display: flex;
+}
+
+#search input{
+    width:100%;
+    margin-right: 0.3rem;
+}
+
+#filtrar{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+#filtrar select{
+    flex:1; /*Preencher todo espaço displonivel */
+}
+
+/*Itens de afazeres: lista*/
+
+.afazer{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    padding:1rem;
+    border-bottom: 1px solid #ddd;
+    transition: .3s;
+}
+
+.afazer h3{
+    flex:1;
+    font-size: 0.9rem;
+
+}
+
+.afazer button{
+    margin-left: 0.4rem;
+}
+
+.feitos{
+    background-color: #979690;
+    border-radius: 5px;
+}
+
+.feitos h3{
+    font-style: italic;
+    text-decoration: line-through; /*Riscar da lista*/
+}
+
+#toolbar{
+    display:none;
+}
