@@ -1,4 +1,4 @@
-//Seleção de elementos
+//Seleção dos elementos
 const afazeresForm = document.querySelector("#afazeres-form");
 const afazeresInput = document.querySelector("#afazeres-input");
 const afazeresLista = document.querySelector("#lista-afazeres");
