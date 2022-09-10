@@ -20,7 +20,7 @@ pois se colocamos uma tarefa ali é porque queremos efetua-la e a medida que iss
 basta apenas abrir um navegador de sua preferência e acessar o link abaixo:
 
 ## Link
-https://github.com/JefersonDomingos/Lista-de-Afazeres
+https://jefersondomingos.github.io/Lista-de-Afazeres/
 
 ## Autor
 Projeto feito por Jeferson Domingos Martins
