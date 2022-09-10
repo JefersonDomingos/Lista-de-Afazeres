@@ -12,7 +12,7 @@ pois se colocamos uma tarefa ali é porque queremos efetua-la e a medida que iss
 
 ## Imagens
 
-![/Foto Calc.png"](https://github.com/JefersonDomingos/Calculadora/blob/master/assets/foto%20calc.png)
+![/Foto Calc.png"](assets/lista de afazeres.png)
 
 ## Para rodar o projeto
 
